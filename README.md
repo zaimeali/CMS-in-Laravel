@@ -15,3 +15,6 @@
 2) When creating the request laravel need @csrf inside the form, so it'll create the token for each request.
 3) 'yield' for define the tag, 'extend' to the path define, 'section' for dynamic content define by tag to show in layout
 4) before migrating always check .env file for right dB name
+
+
+## At: https://www.youtube.com/watch?v=xvIHc4mw-cw   on 1:32:42
