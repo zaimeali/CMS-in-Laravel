@@ -18,3 +18,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', 'PagesController@index');
+
+Route::resource('posts', 'PostsController');
