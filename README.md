@@ -7,8 +7,9 @@
 6) To view all Routes: php artisan route:list
 7) To make model: php artisan make:model <Model-Name>
 8) php artisan make:model <Model-Name> -mrc   this will create migration, model and resource controller
-
+9) php artisan make:model <Model-Name> -m   to make new model with new dB migration
 
 ## Points
 1) Store method in Controller can be access through POST request.
 2) When creating the request laravel need @csrf inside the form, so it'll create the token for each request.
+3) 'yield' for define the tag, 'extend' to the path define, 'section' for dynamic content define by tag to show in layout
