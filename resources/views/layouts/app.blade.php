@@ -25,6 +25,9 @@
 
         {{-- CKEditor CDN --}}
         <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+        <script>
+            CKEDITOR.replace('article-ckeditor');
+        </script>
 
         {{-- Bootstrap JS --}}
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 

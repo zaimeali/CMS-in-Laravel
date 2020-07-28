@@ -14,7 +14,7 @@ class PostsController extends Controller
      */
     public function index()
     {
-        $posts = Post::orderBy('updated_at', 'desc')->paginate(3);
+        $posts = Post::orderBy('created_at', 'desc')->paginate(3);
         // $posts = Post::all();   // this will query all the post from the post dB
         return view('posts.index')->with('posts', $posts);  // this will bind the all posts
     }

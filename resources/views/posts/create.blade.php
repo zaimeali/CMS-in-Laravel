@@ -23,6 +23,7 @@
                 'body', 
                 '', 
                 [
+                    'id' => 'article-ckeditor',
                     'class' => 'form-control', 
                     'placeholder' => 'Enter Body Text'
                 ]) 
