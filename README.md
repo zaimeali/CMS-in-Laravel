@@ -16,5 +16,8 @@
 3) 'yield' for define the tag, 'extend' to the path define, 'section' for dynamic content define by tag to show in layout
 4) before migrating always check .env file for right dB name
 
+## Packages
+1) composer require laravelcollective/html -vvv
+
 
 ## At: https://www.youtube.com/watch?v=xvIHc4mw-cw   on 1:32:42
