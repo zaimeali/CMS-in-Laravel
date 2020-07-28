@@ -19,7 +19,7 @@
         </div>
         <div class="form-group">
             {{ Form::label('body', 'Body') }}
-            {{ Form::text(
+            {{ Form::textarea(
                 'body', 
                 '', 
                 [
