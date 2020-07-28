@@ -23,6 +23,7 @@
                 <small>written on {{ $post->created_at }}</small>
             </div>
         @endforeach
+        {{ $posts->links() }}
     @else
         <p>No Post Found</p>
     @endif

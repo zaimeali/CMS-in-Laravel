@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <a href="/post" class="btn btn-primary">Go Back</a>
+    <a href="/posts" class="btn btn-primary">Go Back</a>
     <h1>{{ $post->title }}</h1>
     <div>
         {{ $post->body }}
